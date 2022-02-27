@@ -8,3 +8,6 @@ CSWM was created alongside the X11 library for Csharp (https://www.nuget.org/pac
 It certainly won't revolutionize the world of window management but is usable as is. The aesthetic was largely inspired by the fvwm and motif window managers which were popular in my undergraduate years rather than the big desktop environments seen in many modern Linux distributions. It is very lightweight and quite usable on a Pentium N netbook.
 
 It supports basic mouse driven window management (snap to edge, resize by grabbing the frame, reposition by grabbing the title). It does not (yet) include a native menu so combining it with something like 9menu would be best.
+
+### Testing:
+You can test CSWM by using a `xorg-xserver-xephyr` session, and then running CSWM and all programs you would like to test with the environment variable `DISPLAY=:0` set beforehand.
